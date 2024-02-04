@@ -10,14 +10,16 @@ function passcheck() {
      if(document.getElementById('pass1').value == password) {
           alert('Correct!');
       }
+}
 
-      if(document.getElementById('pass2').value != question) {
-        alert('Wrong password, try again.');
+function passcheck2(){
+    if(document.getElementById('pass2').value != question) {
+        alert('WRONG ANSWER');
         return false;
     }
     
      if(document.getElementById('pass2').value == question) {
-          alert('Correct!');
+          alert('YIPPEE');
       }
     
 }
